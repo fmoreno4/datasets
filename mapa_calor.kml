@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>resultado-kde.kml</name>
+	<styleUrl>#hideChildrenStyle</styleUrl>
+	<Region>
+		<LatLonAltBox>
+			<north>7.099606334920535</north>
+			<south>7.055935086822216</south>
+			<east>-73.07588677764645</east>
+			<west>-73.11837930307702</west>
+			<minAltitude>0</minAltitude>
+			<maxAltitude>0</maxAltitude>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>1</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+			<minFadeExtent>0</minFadeExtent>
+			<maxFadeExtent>0</maxFadeExtent>
+		</Lod>
+	</Region>
+	<Style id="hideChildrenStyle">
+		<ListStyle id="hideChildren">
+			<listItemType>checkHideChildren</listItemType>
+		</ListStyle>
+	</Style>
+	<GroundOverlay>
+		<Icon>
+			<href>https://raw.githubusercontent.com/fmoreno4/datasets/main/mapa_calor_2.png</href>
+		</Icon>
+		<LatLonBox>
+			<north>7.099606334920535</north>
+			<south>7.055935086822216</south>
+			<east>-73.07588677764645</east>
+			<west>-73.11837930307702</west>
+		</LatLonBox>
+	</GroundOverlay>
+</Document>
+</kml>
